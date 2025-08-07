@@ -1,0 +1,50 @@
+ body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        header {
+            background-color: rgb(105, 33, 15);
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+                            
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 28px;
+            color: rgb(233, 94, 34);
+            font-weight: 500;
+            margin-left: 35px;
+            
+        }
+    
+        
+        a:hover{
+            background-color: rgb(128, 45, 45);
+            padding: 10px;
+            border-radius: 20px;
+            color: rgb(236, 254, 46);
+        }
+       
+        .logo{
+            text-decoration: none;
+            font-size: 28px;
+            font-weight: 500;
+            margin-left: 45px;
+            
+        }
+        section {
+            background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:100vh;
+            display: flex;
+            align-items: center;
+        }
+        div h2{
+            color: antiquewhite;
+            margin-left: 120px;
+            margin-bottom: 130px;
+            font-size: 50px;
+            background : linear-gradient(90deg,rgb(147, 11, 11),rgb(196, 83, 23),rgb(151, 18, 18),rgb(206, 82, 15));
+            padding: 15px;
+        }
